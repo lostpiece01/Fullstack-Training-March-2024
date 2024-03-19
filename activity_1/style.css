@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+
+/* navigation code here*/
+
+.nav{
+    display: inline-block;
+    position: fixed;
+    text-align: center;
+    background-color: #163853;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 10px 0px 11px -5px rgba(0,0,0,0.33);
+    -webkit-box-shadow: 10px 0px 11px -5px rgba(0,0,0,0.33);
+    -moz-box-shadow: 10px 0px 11px -5px rgba(0,0,0,0.33);
+}
+
+#profile{
+    width: 150px;
+    border-radius: 75px;
+    border: 3px solid white;
+}
+
+/* section code here*/
+.sec{
+    position:absolute;
+    top: 0;
+    margin-left: 310px;
+}
+
+h1{
+    font-size:30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+
+h4{
+    margin: 0;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: antiquewhite;
+    margin-bottom: 20px;
+}
+
+hr{
+    opacity: 0.5;
+}
+
+.cont{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.nav p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:antiquewhite;
+    text-align: left;
+    font-size: 15px;
+}
+
+#addr{
+    margin-bottom: 20px;
+}
+
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    color: #163853;
+    padding: 15px;
+    text-decoration: none;
+    background-color:burlywood;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 18px;
+}
+
+a:hover{
+    background-color:rgb(243, 224, 200);
+}
+
+.info{
+    padding-left: 15px;
+}
+
+.sec-head{
+    font-size: 1.6925rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #163853;
+}
+
+.content, li, ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.educ{
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px 0px rgba(86, 86, 86, 0.323);
+    border-radius: 15px;
+    width: 550px;
+    background-color:rgba(237, 237, 237, 0.786);
+}
+
+.skills{
+    position: absolute;
+    top: 168px;
+    margin-left: 590px;
+    box-shadow: 1px 1px 5px 0px rgba(86, 86, 86, 0.323);
+    border-radius: 15px;
+    width: 550px;
+    padding: 10px;
+    background-color:rgba(237, 237, 237, 0.786);
+}

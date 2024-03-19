@@ -1,0 +1,49 @@
+body{
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    text-align: justify;
+    padding: 20px;
+    border: 1px solid brown;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.nav-container{
+    background-color: darkslategray;
+    margin-bottom: 1rem;
+    position:relative;
+}
+
+.nav-container ul{
+    margin: 0;
+    display: flex;   
+    list-style-type: none;
+    padding: 20px;
+
+}
+
+.nav-container a{
+    margin: 0;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+.nav-container a:hover{
+    background-color: cadetblue;
+}
+
+main{
+    display: flex;
+}
+
+@media(width < 786px){
+    main{
+        display: grid;
+    }
+}
